@@ -1,0 +1,153 @@
+/* .mainbody{
+    margin: 0 auto;
+} */
+
+
+.title h1{
+    color:rgb(48, 75, 126);
+    font-size: 2.5rem;
+    
+}
+.title p{
+    color:rgb(48, 75, 126);
+    font-size: 1.5rem;
+    
+}
+.title{
+    text-align: center;
+    margin:150px 0px 50px 0px;
+}
+
+
+.start_button{
+    margin:20px 0px 50px 0px;
+    text-align: center;
+}
+
+.tree_img{
+    text-align: center;
+}
+
+
+.sub_title h1{
+    font-size: 2.5rem;
+    color:#fafafa;
+}.sub_title{
+    padding-top:125px ;
+    padding-bottom: 125px;
+    margin:100px 0px 70px 0px;
+    text-align: center;
+    background-color: #CAE5C3;
+    /* background-image: url("./home_img/treesample.png"); */
+}.sub_title p{
+    font-size: 1.5rem;
+    color:#fafafa;
+}
+.sub_copy{
+    text-align: center;
+    font-size: 1.5rem;
+    color:rgb(48, 75, 126);
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.sub_copy p{
+    font-size: 1.5rem;
+    margin-top: 40px;
+}
+
+
+
+.tg_flex{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.t_mes{
+    text-align: center;
+    border: solid 1px #c0c0c0ce;
+    padding: 100px;
+    margin: 50px;
+    margin-right: 10px;
+    background-color: #f7f1f1ce;
+}
+.t_mes h3,p{
+    color:rgb(48, 75, 126);
+}
+.g_mes{
+    text-align: center;
+    border: solid 1px #c0c0c0ce;
+    padding: 100px;
+    margin: 50px;
+    margin-left: 10px;
+    background-color: #f7f1f1ce;
+}
+.t_title{
+    font-size: 1.8rem;
+}
+.t_size{
+    font-size: 1.1rem;
+}
+.title_endfirst{
+    text-align: center;
+    margin-top: 150px;
+    color:rgb(48, 75, 126)
+}
+
+.title_endfirst h1{
+    margin-bottom: 30px;
+}
+
+.title_endfirst p{
+    color:rgb(48, 75, 126);
+    font-size: 1.2rem;
+}
+
+.title_endsecond{
+    text-align: center;
+    color:rgb(48, 75, 126);
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+footer{
+    padding-top:100px ;
+    padding-bottom: 50px;
+    margin-top:200px;
+    text-align: left;
+    background-color: rgb(183, 206, 248) ;
+    
+}
+footer img{
+    margin-left: 20px;
+}
+
+.end_flex{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation{
+    padding-top:0;
+    padding-left: 50px;
+}
+
+.nav_link{
+    margin-bottom: 30px;
+    /* text-decoration: none; */
+}
+.navigation a{
+    text-decoration: none;
+}
+
+.navigation p{
+    margin-bottom: 15px
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 5px;
+}

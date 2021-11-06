@@ -1,0 +1,124 @@
+.core_title {
+    font-family: "Playball", cursive;
+    font-weight: normal;
+    text-align: center;
+    /* color:white; */
+  }
+  .core_signUp {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .core_text {
+    color: rgb(6, 153, 211);
+    text-align: center;
+    cursor: pointer;
+  }
+  .core_header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 20px;
+    border-bottom: 1px solid white;
+    object-fit: contain;
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+  }
+  .core_btnModal {
+    background-color: transparent;
+    color: gray;
+    padding-top: 3px;
+    font-size: 32px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .core_logout {
+    display: flex;
+    justify-content: flex-end;
+
+  }
+  .core_posts {
+    padding: 20px;
+    /* text-align: center; */
+  }
+  .core_progress {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+
+.core_myprof_log{
+  font-size: 1.8rem;
+}
+
+
+
+.mypage_prof{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border:1px solid rgb(204, 204, 204);
+  padding: 30px 0px 30px 0px;
+  margin:0 auto;
+  margin:30px 150px 70px 150px;
+
+}
+.mypage_prof_child_s{
+  border-left: 1px solid rgb(204, 204, 204);
+  border-right: 1px solid rgb(204, 204, 204);
+  margin:0px 60px 0px 60px;
+  padding: 0px 60px 0px 60px;
+}
+
+
+
+.study_li{
+  list-style: none;
+}.study_comment{
+  font-size: 1.5rem;
+}
+
+
+
+.core_div{
+  margin: 50px;
+  padding-top:50px;
+  text-align: center;
+  border-top:1px solid rgb(204, 204, 204);
+
+}
+
+
+
+
+.core_ranking{
+  text-align: center;
+  color:#4b883c
+}
+
+
+
+
+.core_github_data{
+  text-align: center;
+}
+.core_github_child{
+  margin-top: 30px;
+}
+
+
+.core_subtitle{
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+
+.core_shrot_mes p{
+  font-size: 0.7rem;
+}

@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c");
+
+* {
+  margin: 0;
+}
+.app {
+  background-color: white;
+  height: 100%;
+}
