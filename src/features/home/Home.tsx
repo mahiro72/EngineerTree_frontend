@@ -2,17 +2,30 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import styles from "./Home.module.css"
+import styles_core from "../core/Core.module.css"
 
 import AuthMenu from '../auth/AuthMenu'
 
 import { Button } from '@material-ui/core'
 import { StylesContext } from '@material-ui/styles'
 
+const linkStyle = {
+    textDecoration: "none",
+    color: 'black'
+  };
+
+
 
 const Home = () => {
     return (
         <>
-            <AuthMenu />
+            <div className={styles_core.core_header}>
+                <h1 className={styles_core.core_title}>
+                    <Link style={linkStyle} to='/'>Engineer Tree</Link>
+                </h1>
+            </div>
+
+            
             <div className="mainbody">
 
                 <div className={styles.title}>

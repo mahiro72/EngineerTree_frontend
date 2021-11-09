@@ -91,7 +91,6 @@ export const fetchAsyncGetMostLang = createAsyncThunk(
                 Authorization:`JWT ${localStorage.localJWT}`,
             },
         });
-        console.log(res.data,'####')
         return res.data;
 
     }
