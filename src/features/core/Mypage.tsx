@@ -133,7 +133,7 @@ const Mypage = () => {
                                 src={profile.img} 
                                 //   sx={{ width: 156, height: 156 }}
                                 style={{ height: '70px', width: '70px' }}
-                                />{" "}
+                                />
                                 </StyledBadge>
                         </button>
                         <p>{profile.nickName}</p>
